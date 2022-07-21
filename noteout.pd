@@ -1,0 +1,14 @@
+#N canvas 928 348 782 660 12;
+#X floatatom 222 136 5 0 0 0 - - -;
+#X floatatom 176 136 5 0 0 0 - - -;
+#X floatatom 130 136 5 0 0 0 - - -;
+#X obj 130 170 makenote;
+#X obj 130 197 noteout;
+#X obj 130 112 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X connect 0 0 3 2;
+#X connect 1 0 3 1;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 3 1 4 1;
+#X connect 5 0 2 0;
